@@ -11,6 +11,7 @@ import java.util.UUID;
  * Created by mesar on 2/11/2020
  */
 @RequestMapping("/api/v1/beer")
+@RestController
 public class BeerController {
 
     @GetMapping("/{beerId}")
