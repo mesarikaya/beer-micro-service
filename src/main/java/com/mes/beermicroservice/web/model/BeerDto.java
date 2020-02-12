@@ -23,7 +23,7 @@ import java.util.UUID;
 public class BeerDto {
 
     @Null
-    private UUID uuid;
+    private UUID id;
 
     @Null
     private Long version;
@@ -46,5 +46,9 @@ public class BeerDto {
 
     @Positive
     @NotNull
-    private BigDecimal quantityOnHand;
+    private int quantityOnHand;
+
+    @Positive
+    @NotNull
+    private BigDecimal price;
 }
