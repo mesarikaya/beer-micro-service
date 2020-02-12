@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-02-12T22:26:45+0100",
+    date = "2020-02-12T22:49:44+0100",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11.0.2 (AdoptOpenJDK)"
 )
 @Component
@@ -25,12 +25,12 @@ public class BeerMapperImpl implements BeerMapper {
 
         BeerDto beerDto = new BeerDto();
 
-        beerDto.setUuid( beer.getUuid() );
         beerDto.setVersion( beer.getVersion() );
         beerDto.setCreatedDate( dateMapper.asOffsetDateTime( beer.getCreatedDate() ) );
         beerDto.setLastModifiedDate( dateMapper.asOffsetDateTime( beer.getLastModifiedDate() ) );
         beerDto.setBeerName( beer.getBeerName() );
         beerDto.setUpc( beer.getUpc() );
+        beerDto.setPrice( beer.getPrice() );
 
         return beerDto;
     }
@@ -43,12 +43,12 @@ public class BeerMapperImpl implements BeerMapper {
 
         Beer beer = new Beer();
 
-        beer.setUuid( beerDto.getUuid() );
         beer.setVersion( beerDto.getVersion() );
         beer.setCreatedDate( dateMapper.asTimestamp( beerDto.getCreatedDate() ) );
         beer.setLastModifiedDate( dateMapper.asTimestamp( beerDto.getLastModifiedDate() ) );
         beer.setBeerName( beerDto.getBeerName() );
         beer.setUpc( beerDto.getUpc() );
+        beer.setPrice( beerDto.getPrice() );
 
         return beer;
     }

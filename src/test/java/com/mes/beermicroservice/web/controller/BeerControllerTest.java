@@ -29,14 +29,14 @@ class BeerControllerTest {
 
     @BeforeEach
     public void setUp() {
-        validBeer = BeerDto.builder().id(UUID.randomUUID())
-                .id(null)
-                .beerName("Efes")
-                .beerStyleEnum(BeerStyleEnum.BLONDE)
-                .price(new BigDecimal("6.55"))
-                .quantityOnHand(10)
-                .upc(123456789012L)
-                .build();
+        validBeer = BeerDto.builder()
+                        .id(null)
+                        .beerName("Efes")
+                        .beerStyleEnum(BeerStyleEnum.BLONDE)
+                        .price(new BigDecimal("6.55"))
+                        .quantityOnHand(10)
+                        .upc(123456789012L)
+                        .build();
     }
 
     @Test
