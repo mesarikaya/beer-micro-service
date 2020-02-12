@@ -26,7 +26,7 @@ public class BeerDto {
     private UUID uuid;
 
     @Null
-    private int version;
+    private Long version;
 
     @Null
     private OffsetDateTime createdDate;

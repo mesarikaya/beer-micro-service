@@ -33,6 +33,7 @@ public class Beer {
     @CreationTimestamp
     @Column(updatable = false)
     private Timestamp createdDate;
+
     @UpdateTimestamp
     private Timestamp lastModifiedDate;
     private String beerName;
