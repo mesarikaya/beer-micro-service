@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ echo '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}' | http PUT 'https://dev.mes:80/api/v1/beer/4fdd310f-be96-476c-9cef-ea7010a85ecc' \
+$ echo '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}' | http PUT 'https://dev.mes:80/api/v1/beer/612cd45a-5634-40e0-8a65-673eb524c463' \
     'Content-Type:application/json'
 ----

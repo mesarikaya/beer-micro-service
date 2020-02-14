@@ -456,7 +456,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/99ec4073-2fae-4688-b5c9-a1f1701e1eb7' -i -X GET \
+<pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/bb6c7343-d647-4bfb-895c-792b97739305' -i -X GET \
     -H 'Accept: application/json'</code></pre>
 </div>
 </div>
@@ -465,7 +465,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight nowrap"><code class="language-http" data-lang="http">GET /api/v1/beer/99ec4073-2fae-4688-b5c9-a1f1701e1eb7 HTTP/1.1
+<pre class="highlight nowrap"><code class="language-http" data-lang="http">GET /api/v1/beer/bb6c7343-d647-4bfb-895c-792b97739305 HTTP/1.1
 Accept: application/json
 Host: dev.mes:80</code></pre>
 </div>
@@ -564,7 +564,7 @@ Content-Length: 149
 <div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/' -i -X POST \
     -H 'Content-Type: application/json' \
-    -d '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}'</code></pre>
+    -d '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}'</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -574,10 +574,10 @@ Content-Length: 149
 <div class="content">
 <pre class="highlight nowrap"><code class="language-http" data-lang="http">POST /api/v1/beer/ HTTP/1.1
 Content-Type: application/json
-Content-Length: 164
+Content-Length: 166
 Host: dev.mes:80
 
-{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}</code></pre>
+{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -649,9 +649,9 @@ Host: dev.mes:80
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/4fdd310f-be96-476c-9cef-ea7010a85ecc' -i -X PUT \
+<pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/4fd6d1ae-ef5d-4cc9-bfbd-41274417bebc' -i -X PUT \
     -H 'Content-Type: application/json' \
-    -d '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}'</code></pre>
+    -d '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}'</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -659,12 +659,12 @@ Host: dev.mes:80
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight nowrap"><code class="language-http" data-lang="http">PUT /api/v1/beer/4fdd310f-be96-476c-9cef-ea7010a85ecc HTTP/1.1
+<pre class="highlight nowrap"><code class="language-http" data-lang="http">PUT /api/v1/beer/4fd6d1ae-ef5d-4cc9-bfbd-41274417bebc HTTP/1.1
 Content-Type: application/json
-Content-Length: 164
+Content-Length: 166
 Host: dev.mes:80
 
-{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}</code></pre>
+{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -697,7 +697,7 @@ Host: dev.mes:80
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/f17886cd-3ffc-4893-b2c0-5e794dd4cac9' -i -X DELETE \
+<pre class="highlight"><code class="language-bash" data-lang="bash">$ curl 'https://dev.mes:80/api/v1/beer/a4e31d74-3d60-480e-83d4-c5241aa3623f' -i -X DELETE \
     -H 'Accept: application/json'</code></pre>
 </div>
 </div>
@@ -706,7 +706,7 @@ Host: dev.mes:80
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight nowrap"><code class="language-http" data-lang="http">DELETE /api/v1/beer/f17886cd-3ffc-4893-b2c0-5e794dd4cac9 HTTP/1.1
+<pre class="highlight nowrap"><code class="language-http" data-lang="http">DELETE /api/v1/beer/a4e31d74-3d60-480e-83d4-c5241aa3623f HTTP/1.1
 Accept: application/json
 Host: dev.mes:80</code></pre>
 </div>

@@ -1,3 +1,5 @@
 com\mes\beermicroservice\web\controller\BeerControllerTest$ConstrainedFields.class
 com\mes\beermicroservice\web\controller\BeerControllerTest.class
+com\mes\beermicroservice\web\model\BeerDtoTest.class
+com\mes\beermicroservice\web\model\BeerTest.class
 com\mes\beermicroservice\BeerMicroServiceApplicationTests.class

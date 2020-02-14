@@ -2,8 +2,8 @@
 ----
 POST /api/v1/beer/ HTTP/1.1
 Content-Type: application/json
-Content-Length: 164
+Content-Length: 166
 Host: dev.mes:80
 
-{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}
+{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}
 ----

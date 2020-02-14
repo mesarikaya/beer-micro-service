@@ -2,5 +2,5 @@
 ----
 $ curl 'https://dev.mes:80/api/v1/beer/' -i -X POST \
     -H 'Content-Type: application/json' \
-    -d '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}'
+    -d '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}'
 ----

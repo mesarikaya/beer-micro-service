@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'https://dev.mes:80/api/v1/beer/f17886cd-3ffc-4893-b2c0-5e794dd4cac9' -i -X DELETE \
+$ curl 'https://dev.mes:80/api/v1/beer/e5fa8c55-ce9e-47d5-8dc2-cdce5a154159' -i -X DELETE \
     -H 'Accept: application/json'
 ----

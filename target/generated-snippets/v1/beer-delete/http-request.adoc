@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /api/v1/beer/f17886cd-3ffc-4893-b2c0-5e794dd4cac9 HTTP/1.1
+DELETE /api/v1/beer/e5fa8c55-ce9e-47d5-8dc2-cdce5a154159 HTTP/1.1
 Accept: application/json
 Host: dev.mes:80
 

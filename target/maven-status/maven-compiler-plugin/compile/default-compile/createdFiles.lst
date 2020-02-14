@@ -1,11 +1,13 @@
 com\mes\beermicroservice\domain\Beer$BeerBuilder.class
 com\mes\beermicroservice\bootstrap\BeerLoader.class
 com\mes\beermicroservice\web\mappers\DateMapper.class
+com\mes\beermicroservice\web\model\LocalDateSerializer.class
 com\mes\beermicroservice\web\model\BeerDto$BeerDtoBuilder.class
 com\mes\beermicroservice\web\model\BeerPagedList.class
 com\mes\beermicroservice\web\mappers\BeerMapper.class
 com\mes\beermicroservice\web\mappers\BeerMapperImpl.class
 com\mes\beermicroservice\repositories\BeerRepository.class
+com\mes\beermicroservice\web\model\LocalDateDeserializer.class
 com\mes\beermicroservice\web\model\BeerStyleEnum.class
 com\mes\beermicroservice\web\controller\BeerController.class
 com\mes\beermicroservice\web\model\BeerDto.class
