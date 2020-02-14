@@ -1,0 +1,40 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+class java.util.UUID+`
+|Id of Beer
+
+|`+version+`
+|`+class java.lang.Long+`
+|Version number
+
+|`+createdDate+`
+|`+class java.time.OffsetDateTime+`
+|Date Created
+
+|`+lastModifiedDate+`
+|`+class java.time.OffsetDateTime+`
+|Date Updated
+
+|`+beerName+`
+|`+class java.lang.String+`
+|Beer Name
+
+|`+beerStyleEnum+`
+|`+class java.lang.Enum+`
+|Beer Style
+
+|`+upc+`
+|`+class java.lang.Long+`
+|UPC of Beer
+
+|`+price+`
+|`+class java.math.BigDecimal+`
+|Price
+
+|`+quantityOnHand+`
+|`+class java.lang.Integer+`
+|Quantity On Hand
+
+|===

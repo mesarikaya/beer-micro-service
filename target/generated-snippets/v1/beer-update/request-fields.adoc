@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`+beerName+`
+|`+class java.lang.String+`
+|Beer Name
+
+|`+beerStyleEnum+`
+|`+class java.lang.String+`
+|Beer Style
+
+|`+upc+`
+|`+class java.lang.Long+`
+|UPC of Beer
+
+|`+price+`
+|`+class java.math.BigDecimal+`
+|Price
+
+|===

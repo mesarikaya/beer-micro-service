@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'https://dev.mes:80/api/v1/beer/99ec4073-2fae-4688-b5c9-a1f1701e1eb7' \
+    'Accept:application/json'
+----

@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ echo '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}' | http PUT 'https://dev.mes:80/api/v1/beer/4fdd310f-be96-476c-9cef-ea7010a85ecc' \
+    'Content-Type:application/json'
+----

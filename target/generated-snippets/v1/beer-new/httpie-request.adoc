@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ echo '{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":6.55}' | http POST 'https://dev.mes:80/api/v1/beer/' \
+    'Content-Type:application/json'
+----
