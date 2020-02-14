@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /api/v1/beer/612cd45a-5634-40e0-8a65-673eb524c463 HTTP/1.1
+PUT /api/v1/beer/c796f91d-1078-4dc2-b738-962abb7b874c HTTP/1.1
 Content-Type: application/json
 Content-Length: 166
 Host: dev.mes:80

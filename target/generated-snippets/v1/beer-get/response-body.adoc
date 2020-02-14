@@ -1,4 +1,4 @@
 [source,options="nowrap"]
 ----
-{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":null,"beerStyleEnum":null,"upc":null,"quantityOnHand":0,"price":null}
+{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}
 ----

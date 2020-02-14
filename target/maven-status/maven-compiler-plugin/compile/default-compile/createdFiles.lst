@@ -6,11 +6,14 @@ com\mes\beermicroservice\web\model\BeerDto$BeerDtoBuilder.class
 com\mes\beermicroservice\web\model\BeerPagedList.class
 com\mes\beermicroservice\web\mappers\BeerMapper.class
 com\mes\beermicroservice\web\mappers\BeerMapperImpl.class
+com\mes\beermicroservice\web\controller\NotFoundException.class
 com\mes\beermicroservice\repositories\BeerRepository.class
 com\mes\beermicroservice\web\model\LocalDateDeserializer.class
+com\mes\beermicroservice\services\BeerServiceImpl.class
 com\mes\beermicroservice\web\model\BeerStyleEnum.class
 com\mes\beermicroservice\web\controller\BeerController.class
 com\mes\beermicroservice\web\model\BeerDto.class
 com\mes\beermicroservice\web\controller\MvcExceptionHandler.class
 com\mes\beermicroservice\domain\Beer.class
 com\mes\beermicroservice\BeerMicroServiceApplication.class
+com\mes\beermicroservice\services\BeerService.class

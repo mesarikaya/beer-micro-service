@@ -1,5 +1,8 @@
 [source,http,options="nowrap"]
 ----
 HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 166
 
+{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Efes","beerStyleEnum":"BLONDE","upc":123456789012,"quantityOnHand":10,"price":"6.55"}
 ----
