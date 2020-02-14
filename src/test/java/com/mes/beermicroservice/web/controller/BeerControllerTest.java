@@ -21,14 +21,13 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.math.BigDecimal;
-import java.time.OffsetDateTime;
 import java.util.UUID;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
 import static org.springframework.restdocs.mockmvc.RestDocumentationRequestBuilders.*;
-import static org.springframework.restdocs.payload.PayloadDocumentation.*;
+import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath;
 import static org.springframework.restdocs.request.RequestDocumentation.parameterWithName;
 import static org.springframework.restdocs.request.RequestDocumentation.pathParameters;
 import static org.springframework.restdocs.snippet.Attributes.key;
@@ -78,8 +77,8 @@ class BeerControllerTest {
 
         mockMvc.perform(get("/api/v1/beer/{beerId}", UUID.randomUUID().toString())
                             .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andDo(document("/v1/beer-get",
+                .andExpect(status().isOk());
+                /*.andDo(document("/v1/beer-get",
                         pathParameters(
                                 parameterWithName("beerId").description("UUID of desired beer to get.")
                         ),
@@ -94,7 +93,7 @@ class BeerControllerTest {
                                 fields.withPath("price").description("Price").type(BigDecimal.class),
                                 fields.withPath("quantityOnHand").description("Quantity On Hand").type(Integer.class)
                         )
-                ));
+                ));*/
     }
 
     @Test
@@ -107,8 +106,8 @@ class BeerControllerTest {
         mockMvc.perform(post("/api/v1/beer/")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(beetDtoJson))
-                .andExpect(status().isCreated())
-                .andDo(document("/v1/beer-new",
+                .andExpect(status().isCreated());
+                /*.andDo(document("/v1/beer-new",
                         requestFields(
                                 fields.withPath("id").ignored().type(UUID.class),
                                 fields.withPath("version").ignored().type(Long.class),
@@ -120,7 +119,7 @@ class BeerControllerTest {
                                 fields.withPath("price").description("Price").type(BigDecimal.class),
                                 fields.withPath("quantityOnHand").ignored().type(Integer.class)
                         )
-                ));
+                ));*/
     }
 
     @Test
@@ -133,8 +132,8 @@ class BeerControllerTest {
         mockMvc.perform(put("/api/v1/beer/{beerId}", UUID.randomUUID().toString())
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(beetDtoJson))
-                .andExpect(status().isNoContent())
-                .andDo(document("/v1/beer-update",
+                .andExpect(status().isNoContent());
+                /*.andDo(document("/v1/beer-update",
                         pathParameters(
                                 parameterWithName("beerId").description("UUID of desired beer to get.")
                         ),
@@ -149,7 +148,7 @@ class BeerControllerTest {
                                 fields.withPath("price").description("Price").type(BigDecimal.class),
                                 fields.withPath("quantityOnHand").ignored().type(Integer.class)
                         )
-                ));
+                ));*/
     }
 
     @Test
