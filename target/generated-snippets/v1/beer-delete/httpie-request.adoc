@@ -1,5 +1,0 @@
-[source,bash]
-----
-$ http DELETE 'https://dev.mes:80/api/v1/beer/3e37278d-8f08-4adb-82bc-0becdabd00d5' \
-    'Accept:application/json'
-----
