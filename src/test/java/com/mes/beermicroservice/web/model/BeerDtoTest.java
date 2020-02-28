@@ -1,5 +1,6 @@
 package com.mes.beermicroservice.web.model;
 
+import brewery.model.events.BeerDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

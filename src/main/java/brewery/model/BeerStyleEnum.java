@@ -1,4 +1,4 @@
-package com.mes.beermicroservice.web.model;
+package brewery.model;
 
 /**
  * Created by mesar on 2/11/2020

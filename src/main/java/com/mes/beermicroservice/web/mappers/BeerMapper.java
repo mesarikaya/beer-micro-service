@@ -1,7 +1,7 @@
 package com.mes.beermicroservice.web.mappers;
 
 import com.mes.beermicroservice.domain.Beer;
-import com.mes.beermicroservice.web.model.BeerDto;
+import brewery.model.events.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

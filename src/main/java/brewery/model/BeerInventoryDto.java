@@ -1,4 +1,4 @@
-package com.mes.beermicroservice.web.model;
+package brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

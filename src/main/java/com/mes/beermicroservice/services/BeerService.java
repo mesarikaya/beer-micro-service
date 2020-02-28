@@ -1,8 +1,8 @@
 package com.mes.beermicroservice.services;
 
-import com.mes.beermicroservice.web.model.BeerDto;
-import com.mes.beermicroservice.web.model.BeerPagedList;
-import com.mes.beermicroservice.web.model.BeerStyleEnum;
+import brewery.model.events.BeerDto;
+import brewery.model.BeerPagedList;
+import brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

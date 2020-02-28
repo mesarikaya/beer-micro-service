@@ -2,8 +2,8 @@ package com.mes.beermicroservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mes.beermicroservice.services.BeerService;
-import com.mes.beermicroservice.web.model.BeerDto;
-import com.mes.beermicroservice.web.model.BeerStyleEnum;
+import brewery.model.events.BeerDto;
+import brewery.model.BeerStyleEnum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

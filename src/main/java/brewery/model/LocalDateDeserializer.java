@@ -1,4 +1,4 @@
-package com.mes.beermicroservice.web.model;
+package brewery.model;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;

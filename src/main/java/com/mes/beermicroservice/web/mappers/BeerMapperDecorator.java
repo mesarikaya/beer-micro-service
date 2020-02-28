@@ -1,8 +1,8 @@
 package com.mes.beermicroservice.web.mappers;
 
 import com.mes.beermicroservice.domain.Beer;
-import com.mes.beermicroservice.services.BeerInventoryService;
-import com.mes.beermicroservice.web.model.BeerDto;
+import com.mes.beermicroservice.services.inventory.BeerInventoryService;
+import brewery.model.events.BeerDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 

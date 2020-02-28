@@ -1,5 +1,8 @@
 package com.mes.beermicroservice.web.model;
 
+import brewery.model.events.BeerDto;
+import brewery.model.BeerStyleEnum;
+
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;

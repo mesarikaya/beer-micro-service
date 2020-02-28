@@ -1,4 +1,4 @@
-package com.mes.beermicroservice.web.model;
+package brewery.model;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;

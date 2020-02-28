@@ -1,4 +1,4 @@
-package com.mes.beermicroservice.services;
+package com.mes.beermicroservice.services.inventory;
 
 import java.util.UUID;
 

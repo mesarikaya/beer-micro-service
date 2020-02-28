@@ -1,5 +1,6 @@
-package com.mes.beermicroservice.web.model;
+package brewery.model;
 
+import brewery.model.events.BeerDto;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -29,7 +30,7 @@ public class BeerPagedList extends PageImpl<BeerDto> {
         super(content, PageRequest.of(number,size), totalElements);
     }
 
-    public BeerPagedList(List<BeerDto> content, Pageable pageable,  long total){
+    public BeerPagedList(List<BeerDto> content, Pageable pageable, long total){
         super(content,  pageable, total);
     }
 

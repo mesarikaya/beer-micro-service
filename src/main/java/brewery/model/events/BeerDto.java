@@ -1,5 +1,6 @@
-package com.mes.beermicroservice.web.model;
+package brewery.model.events;
 
+import brewery.model.BeerStyleEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

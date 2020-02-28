@@ -4,9 +4,9 @@ import com.mes.beermicroservice.domain.Beer;
 import com.mes.beermicroservice.repositories.BeerRepository;
 import com.mes.beermicroservice.web.controller.NotFoundException;
 import com.mes.beermicroservice.web.mappers.BeerMapper;
-import com.mes.beermicroservice.web.model.BeerDto;
-import com.mes.beermicroservice.web.model.BeerPagedList;
-import com.mes.beermicroservice.web.model.BeerStyleEnum;
+import brewery.model.events.BeerDto;
+import brewery.model.BeerPagedList;
+import brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
@@ -119,7 +119,7 @@ public class BeerServiceImpl implements BeerService {
     @Override
     public BeerDto getBeerByUpc(long upc) {
 
-        Beer beer = beerRepository.findByUpc(upc);
+        Beer beer = beerRepository.findByUpc(String.valueOf(upc));
 
         return beerMapper.beerToBeerDto(beer);
     }
